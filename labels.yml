@@ -68,13 +68,13 @@
     - "security"
 
 # type
-- name: "type: feature"
+- name: "type: new feature"
   color: "207de5"
   description: "New feature or request"
   aliases:
-    - "type: feature"
-    - "feature"
+    - "type: new feature"
     - "new feature"
+    - "feature"
 
 - name: "type: enchancement"
   color: "207de5"
