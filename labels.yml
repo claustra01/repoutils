@@ -1,0 +1,150 @@
+# for open source projects
+- name: "0: good first issue"
+  color: "7057ff"
+  description: "Good for newcomers"
+  aliases:
+    - "0: good first issue"
+    - "good first issue"
+
+- name: "0: help wanted"
+  color: "008672"
+  description: "Extra attention is needed"
+  aliases:
+    - "0: help wanted"
+    - "help wanted"
+
+# priority
+- name: "priority: emergency"
+  color: "b60205"
+  description: "Requires immediate attention"
+  aliases:
+    - "priority: emergency"
+    - "emergency priority"
+    - "emergency"
+
+- name: "priority: high"
+  color: "d93f0b"
+  description: "Requires attention"
+  aliases:
+    - "priority: high"
+    - "high priority"
+
+- name: "priority: medium"
+  color: "fbca04"
+  description: "Normal priority"
+  aliases:
+    - "priority: medium"
+    - "medium priority"
+
+- name: "priority: low"
+  color: "fef2c0"
+  description: "We would do it, but not urgent"
+  aliases:
+    - "priority: low"
+    - "low priority"
+
+- name: "priority: pending"
+  color: "d4c5f9"
+  description: "Worked on it, but suspended"
+  aliases:
+    - "priority: pending"
+    - "pending priority"
+    - "pending"
+
+# problem
+- name: "problem: bug"
+  color: "e11d21"
+  description: "Features which are not working"
+  aliases:
+    - "problem: bug"
+    - "bug"
+
+- name: "problem: vulnerability"
+  color: "e11d21"
+  description: "Features witch have some security issues"
+  aliases:
+    - "problem: vulnerability"
+    - "vulnerability"
+    - "security"
+
+# type
+- name: "type: feature"
+  color: "207de5"
+  description: "New feature or request"
+  aliases:
+    - "type: feature"
+    - "feature"
+    - "new feature"
+
+- name: "type: enchancement"
+  color: "207de5"
+  description: "Enhance or modify existing features"
+  aliases:
+    - "type: enchancement"
+    - "enchancement"
+
+- name: "type: improvement"
+  color: "207de5"
+  description: "Improve or optimize existing features"
+  aliases:
+    - "type: improvement"
+    - "improvement"
+
+- name: "type: documentation"
+  color: "207de5"
+  description: "Add or update documentation"
+  aliases:
+    - "type: documentation"
+    - "documentation"
+    - "docs"
+
+- name: "type: design"
+  color: "207de5"
+  description: "Add or update design"
+  aliases:
+    - "type: design"
+    - "design"
+
+# closed
+- name: "closed: invalid"
+  color: "e6e6e6"
+  description: "This doesn't seem right"
+  aliases:
+    - "closed: invalid"
+    - "invalid"
+
+- name: "closed: wontfix"
+  color: "e6e6e6"
+  description: "This will not be worked on"
+  aliases:
+    - "closed: wontfix"
+    - "wontfix"
+
+- name: "closed: duplicate"
+  color: "e6e6e6"
+  description: "This issue or pull request already exists"
+  aliases:
+    - "closed: duplicate"
+    - "duplicate"
+
+# feedback
+- name: "feedback: suggestion"
+  color: "009800"
+  description: "A suggestion about features"
+  aliases:
+    - "feedback: suggestion"
+    - "suggestion"
+
+- name: "feedback: question"
+  color: "009800"
+  description: "A question about features"
+  aliases:
+    - "feedback: question"
+    - "question"
+
+- name: "feedback: discussion"
+  color: "009800"
+  description: "A discussion about features"
+  aliases:
+    - "feedback: discussion"
+    - "discussion"
