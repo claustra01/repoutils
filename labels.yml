@@ -53,14 +53,14 @@
 
 # problem
 - name: "problem: bug"
-  color: "e11d21"
+  color: "e99695"
   description: "Features which are not working"
   aliases:
     - "problem: bug"
     - "bug"
 
 - name: "problem: vulnerability"
-  color: "e11d21"
+  color: "e99695"
   description: "Features witch have some security issues"
   aliases:
     - "problem: vulnerability"
