@@ -1,24 +1,30 @@
-## 概要
+## Overview / 概要
+(Provide a concise description of the changes and their purpose.)
 （変更の概要や目的を簡潔に説明してください。）
 
-## 関連する Issue
-（関連する Issue があればリンクしてください。例: #123）
+## Related Issue / 関連する Issue
+(Link to any related issue, if applicable. Example: #123)
+（関連するIssueがあればリンクしてください。例: #123）
 
-## 変更の種類
+## Type of Change / 変更の種類
+(Please select appropriate from the following.)
 （以下の中から適切なものを選択してください。）
 
-- [ ] バグ修正（修正されたバグの概要を説明してください。）
-- [ ] 新機能の追加（新機能の概要を説明してください。）
-- [ ] ドキュメントの変更（変更の内容を説明してください。）
-- [ ] パフォーマンス向上
-- [ ] コードのリファクタリング
-- [ ] その他（変更内容を説明してください。）
+- [ ] Bug Fix (Describe the overview of the fixed bug.)
+- [ ] New Feature Addition (Describe the overview of the new feature.)
+- [ ] Documentation Changes (Describe the changes made.)
+- [ ] Performance Improvement
+- [ ] Code Refactoring
+- [ ] Others (Describe the changes.)
 
-## テスト
+## Tests / テスト
+(Describe how the changes were tested or test results.)
 （変更をテストした方法や、テスト結果を記述してください。）
 
-## スクリーンショット
+## Screenshots / スクリーンショット
+(Attach screenshots of the changes, if applicable.)
 （変更内容のスクリーンショットや、それに関連するものがあればこちらに添付してください。）
 
-## その他
+## Others / その他
+(Additional comments or any other information related to the changes.)
 （追加のコメントや、変更に関するその他の情報があれば記述してください。）

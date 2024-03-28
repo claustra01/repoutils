@@ -1,14 +1,15 @@
 # discussion.yml
-name: 機能に関する議論
-description: 機能に関する議論はこちら
+name: Discussion on Feature / 機能に関する議論
+description: Use this template to discuss features / 機能に関する議論はこちら
 title: 'Discussion: '
 
 body:
   - type: textarea
     id: topic
     attributes:
-      label: 議題
+      label: Topic / 議題
       description: |
+        Briefly describe the theme or topic of the discussion.
         議論のテーマや話題を簡潔に記載してください。
     validations:
       required: true
@@ -16,8 +17,9 @@ body:
   - type: textarea
     id: details
     attributes:
-      label: 詳細
+      label: Details / 詳細
       description: |
+        Provide details or background information about the discussion.
         議論の詳細や背景情報を記載してください。
     validations:
       required: true
@@ -25,6 +27,7 @@ body:
   - type: textarea
     id: suggestions
     attributes:
-      label: 提案
+      label: Suggestions / 提案
       description: |
+        Feel free to provide suggestions or opinions regarding the discussion.
         議論に関する提案や意見を自由に記載してください。
