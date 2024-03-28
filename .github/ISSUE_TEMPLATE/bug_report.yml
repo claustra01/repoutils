@@ -24,10 +24,10 @@ body:
         Specify the reproduction environment and the application version.
         再現環境とアプリのバージョンを記載してください。
         e.g.
-        Chrome + Windows / v1.0.0
-        Edge + Windows / v0.3.1
-        Firefox + macOS / v4.2.0
-        Safari + iOS / beta-1.8.0
+        Windows 11, Google Chrome / v1.0.0
+        Windows 11, Microsoft Edge / v0.3.1
+        macOS 12, Firefox / v4.2.0
+        iOS 17, Safari / beta-1.8.0
     validations:
       required: true
 
