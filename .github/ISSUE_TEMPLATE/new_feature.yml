@@ -2,6 +2,7 @@
 name: 新機能の追加
 description: 新しい機能の提案はこちら
 title: 'Feature: '
+
 body:
   - type: textarea
     id: overview
@@ -11,6 +12,7 @@ body:
         新機能の概要を記載してください。
     validations:
       required: true
+
   - type: textarea
     id: motivation
     attributes:
@@ -19,6 +21,7 @@ body:
         新機能の提案の動機や利点を記載してください。
     validations:
       required: true
+
   - type: textarea
     id: implementation
     attributes:
@@ -27,6 +30,7 @@ body:
         新機能の実装方法やアイデアを記載してください。
     validations:
       required: false
+      
   - type: textarea
     id: alternatives
     attributes:

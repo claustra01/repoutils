@@ -2,6 +2,7 @@
 name: バグ報告
 description: 不具合報告はこちら
 title: 'Bug: '
+
 body:
   - type: textarea
     id: overview
@@ -12,19 +13,21 @@ body:
         見た目に関係する場合は、スクリーンショット等を貼り付けてください。
     validations:
       required: true
+
   - type: input
     id: environment
     attributes:
       label: 再現環境
       description: |
-        再現環境を記載してください。
+        再現環境とアプリのバージョンを記載してください。
         例：
-        Chrome + Windows
-        Edge + Windows
-        Chrome + macOS
-        Safari + macOS
+        Chrome + Windows / v1.0.0
+        Edge + Windows / v0.3.1
+        Firefox + macOS / v4.2.0
+        Safari + iOS / beta-1.8.0
     validations:
       required: true
+
   - type: textarea
     id: process
     attributes:
@@ -37,7 +40,10 @@ body:
         ...
     validations:
       required: true
+
   - type: textarea
     id: supplement
     attributes:
       label: 補足
+      description: |
+        その他補足情報があれば記載してください。
