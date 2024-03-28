@@ -1,0 +1,43 @@
+# enhancement.yml
+name: 機能の強化
+description: 機能の改善や拡張に関する提案はこちら
+title: 'Enhancement: '
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 概要
+      description: |
+        機能の強化に関する概要を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 動機
+      description: |
+        機能の改善や拡張の動機を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: 現在の動作
+      description: |
+        現在の機能の挙動や問題点を記載してください。
+    validations:
+      required: false
+  - type: textarea
+    id: suggested_solution
+    attributes:
+      label: 提案される解決策
+      description: |
+        機能の改善や拡張のための提案される解決策を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 代替案
+      description: |
+        代替案やその他の考えがあれば記載してください。
