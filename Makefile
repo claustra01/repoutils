@@ -4,6 +4,8 @@ include .env
 
 template:
 	@echo "Pushing issue and pull request templates..."
+	rm -rf .git
+	git init
 	git add .github
 	git commit -m "Add issue and pull request templates"
 	git push "https://$(REPOSITORY_TOKEN)@github.com/$(REPOSITORY_NAME)" HEAD:main
