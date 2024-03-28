@@ -1,8 +1,8 @@
 include .env
 
-.PHONY: template label
+.PHONY: templates labels
 
-template:
+templates:
 	@echo "Pushing issue and pull request templates..."
 	rm -rf .git
 	git init
@@ -10,6 +10,6 @@ template:
 	git commit -m "Add issue and pull request templates"
 	git push "https://$(REPOSITORY_TOKEN)@github.com/$(REPOSITORY_NAME)" HEAD:main
 
-label:
+labels:
 	@echo "Setting labels..."
 	npx -y github-label-sync --access-token ${REPOSITORY_TOKEN} --labels labels.yml ${REPOSITORY_NAME}
